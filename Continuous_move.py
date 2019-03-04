@@ -3,7 +3,7 @@ import zeep
 from time import sleep
 
 #Подключаемся к устройству
-mycam = ONVIFCamera('192.168.15.55', 8999, 'admin', 'Supervisor', 'C:/Users/profe/AppData/Local/Programs/Python/Python37/Lib/site-packages/wsdl')
+mycam = ONVIFCamera('192.168.15.55', 8999, 'login', 'password', 'C:/Users/profe/AppData/Local/Programs/Python/Python37/Lib/site-packages/wsdl')
 
 #Без кода ниже программа не работает 
 def zeep_pythonvalue(self, xmlvalue):
